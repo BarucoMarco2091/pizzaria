@@ -1,13 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pizzaria Mauá</title>
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-pizza-slice">PIZZA</i>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-link">
+                    <a href="#">A Pizzaria</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Cardápio</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Almoço</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Galeria</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </nav>
+        <div class="banner-container">
+            <div class="banner-img">
+                <img src="assets/banner.png" alt="banner" loading="lazy">
+            </div>
+            <div class="banner-text">
+                <h1 class="main-title">
+                    A TRADIÇÃO É FEITA EM PEDAÇOS
+                </h1>
+                <button class="btn-whatsapp">PEÇA PELO WHATSAPP</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="about-us">Sobre nós</h2>
+        <div class="container">
+            <div class="img-container">
+                <img src="assets/pizza-calabresa.png" alt="" loading="lazy">
+            </div>
+            <div class="text-container">
+                <h2 class="secondary-title">Bem-Vindo A Pizzaria Mauá</h2>
+                <p>Somos especializados em pizza artesanal,<br>assada em um forno de tijolos para obter<br>uma massa
+                    fina, feita a partir de uma receita<br>transmitida por cinco gerações de pizzaioli.</p>
+                <button class="menu-btn">VEJA NOSSO CARDÁPIO</button>
+            </div>
+        </div>
+        <div class="menu-container">
+            <h3>Cardápio Pizza Mauá</h3>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-calabresa.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza de Calabresa</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitons Pretas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-mussarela.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza de Mussarela</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitons Pretas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-portuguesa.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza Portuguesa</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitonas Pretas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-calabresa.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza de Atum</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitonas Pretas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-mussarela.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza Marguerita</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitonas Pretas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/pizza-portuguesa.png" alt="" loading="lazy">
+                    </div>
+                    <div class="card-title">
+                        <h4>Pizza Escarola</h4>
+                    </div>
+                    <div class="card-paragraph">
+                        <p>Massa, Molho de Tomate, Mozzarella,<br>Pimentão Verde, Cebola, Cogumelos<br>Frescos, Tomates e Azeitons Pretas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desserts">
+            <h5>Sobremesas</h5>
+            <div class="card-grid">
+                <div class="card-image">
+                    <img src="assets/bolo.png" alt="" loading="lazy">
+                </div>
+                <div class="card-image">
+                    <img src="assets/petit-gauteau.png" alt="" loading="lazy">
+                </div>
+                <div class="card-image">
+                    <img src="assets/petit-gauteau.png" alt="" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <footer class="footer-logo">
+            <i class="fa-solid fa-pizza-slice">PIZZA</i>
+        </footer>
+        <footer class="footer-links">
+            <p>A Pizzaria</p>
+            <p>Cardápio</p>
+            <p>Contato</p>
+        </footer>
+        <footer class="footer-icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </footer>
+    </footer>
+    <script src="script/script.js"></script>
 </body>
+
 </html>

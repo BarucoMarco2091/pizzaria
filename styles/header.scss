@@ -1,0 +1,94 @@
+@import '../styles/variables.scss';
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    background-color: $background;
+    padding: 3dvh;
+
+    .logo {
+        color: $red;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 3dvh;
+        list-style: none;
+        font-family: 'Open Sans', serif;
+        font-size: 1.2rem;
+        margin: 2dvh;
+        
+        a {
+            color: $white;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: rgb(216, 70, 70);
+        }
+    }
+
+    .nav-icons {
+        i {
+            color: $white;
+            margin-right: 3dvh;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+
+        i:hover {
+            color: $red;
+        }
+    }
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+
+    .banner-img {
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -65dvh;
+
+        .main-title {
+            font-family: 'Roboto', serif;
+            font-size: 3rem;
+            color: $white;
+            text-align: center;
+        }
+
+        .btn-whatsapp {
+            width: 30dvh;
+            height: 6dvh;
+            margin: auto;
+            text-align: center;
+            border: none;
+            border-radius: 3dvh;
+            cursor: pointer;
+            font-family: 'Open Sans', serif;
+            font-size: 0.8rem;
+            background-color: $orange;
+            color: $white;
+            margin-top: 3dvh;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: $red;
+        }
+    }
+}
