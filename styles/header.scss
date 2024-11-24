@@ -34,6 +34,7 @@ header {
         justify-content: space-around;
         padding: 3dvh;
         background-color: $background;
+        z-index: 3;
 
         .logo {
             color: $red;
@@ -75,6 +76,7 @@ header {
         #mobile_btn {
             display: none;
             background-color: transparent;
+            color: $white;
             border: none;
             font-size: 1.5rem;
             cursor: pointer;

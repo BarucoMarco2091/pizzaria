@@ -27,6 +27,7 @@ header .navbar {
   justify-content: space-around;
   padding: 3dvh;
   background-color: #151517;
+  z-index: 3;
 }
 header .navbar .logo {
   color: rgb(216, 70, 70);
@@ -60,6 +61,7 @@ header .navbar .nav-icons i:hover {
 header .navbar #mobile_btn {
   display: none;
   background-color: transparent;
+  color: #fff;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
