@@ -1,0 +1,64 @@
+@import '../styles/variables.scss';
+
+footer {
+    display: flex;
+    height: 15dvh;
+    background-color: $background;
+    justify-content: space-around;
+
+    .footer-logo {
+        color: $red;
+        cursor: pointer;
+        font-size: 1.3rem;
+        padding: 3dvh;
+    }
+
+    .footer-links {
+        padding: 3dvh;
+        display: flex;
+
+        p {
+            color: $white;
+            margin-right: 3dvh;
+            font-family: 'Open Sans', serif;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        p:hover {
+            color: $red;
+        }
+    }
+
+    .footer-icons {
+        color: $white;
+        cursor: pointer;
+        font-size: 1.4rem;
+        padding: 3dvh;
+        display: flex;
+
+        i {
+            margin-right: 3dvh;
+        }
+
+        i:hover {
+            color: $red
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-icons {
+        display: flex !important;
+        flex-direction: row !important;
+    
+    }
+}
