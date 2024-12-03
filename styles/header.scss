@@ -159,6 +159,40 @@ header {
     }
 }
 
+@media screen and (max-width: 320px) {
+    header {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar {
+        padding: 1dvh !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner-text {
+        display: flex !important;
+        position: relative !important;
+        top: 5dvh !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
     header {
         display: flex !important;
@@ -210,6 +244,14 @@ header {
 @media screen and (max-width: 600px) {
     #mobile_btn {
         display: block !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner-text {
+        display: flex !important;
+        position: relative !important;
+        top: -17dvh !important;
     }
 }
 

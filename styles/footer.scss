@@ -47,6 +47,31 @@ footer {
     }
 }
 
+@media screen and (max-width: 320px) {
+    footer {
+        height: 17dvh !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-logo {
+        padding: 1dvh !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer-links {
+        padding: 1dvh !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-icons {
+        padding: 1dvh !important;
+    
+    }
+}
+
 @media screen and (max-width: 480px) {
     footer {
         display: flex !important;
